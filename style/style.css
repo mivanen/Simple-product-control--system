@@ -1,0 +1,78 @@
+body
+{
+	background-color: #F2F2F2;
+	color: #333;
+}
+
+mark
+{
+	color: #666;
+	font-size: 0.7em;
+	text-transform: uppercase;
+	background-color: #FFF;
+	font-weight: 600;
+
+}
+
+h1,h2,h3,h4,h5,h6
+{
+	font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+
+.btn
+{
+margin:10px 0 0 10px; 
+}
+
+#select_all_block
+{
+	margin: -20px 0 5px 10px;
+}
+
+label
+{
+	color: #333;
+	font-size: 0.9em;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.product_block
+{
+	background-color: #FFF;
+	border-radius: 5px;
+	margin: 0 5px 20px 5px;
+	padding: 5px 10px 10px 10px;	
+	border:1px solid #CCC;
+	cursor: pointer;
+
+}
+
+.product_block:hover
+{
+-webkit-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.2); 
+box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.2);
+}
+
+.product_block img
+{
+	width: 100%;
+}
+
+footer
+{
+	text-align: center;
+	font-weight: 600;
+	font-size:0.8em;
+	border-top:1px solid #CCC;
+	height: 75px;
+	padding-top: 10px;
+	line-height:1em;
+	color: #666;
+
+}
+
+.product_select_block
+{
+	border-bottom: 1px solid #F2F2F2;
+}
